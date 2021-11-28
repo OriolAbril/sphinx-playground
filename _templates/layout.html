@@ -1,9 +1,13 @@
-{%- extends "layout.html" %}
-{% block body %}
-
-{{ body }}
+{%- extends "!layout.html" %}
 
 {% set sourcepath =  github_user + '/' + github_repo + '/blob/' + source_version + '/' %}
+
+{% block docs_body %}
+
+{{ super() }}
+
+<p>Text added from the html template:</p>
+
 <p>
 {{ sourcepath }}, {{ source_version }}
 </p>
