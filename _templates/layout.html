@@ -1,0 +1,15 @@
+{%- extends "layout.html" %}
+{% block body %}
+
+{{ body }}
+
+{% set sourcepath =  github_user + '/' + github_repo + '/blob/' + source_version + '/' %}
+<p>
+{{ sourcepath }}, {{ source_version }}
+</p>
+
+<p>
+{{ sandbox_version }}
+</p>
+
+{% endblock %}

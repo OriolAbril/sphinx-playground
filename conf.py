@@ -1,3 +1,5 @@
+import os
+
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
@@ -77,11 +79,15 @@ html_theme_options = {
     ],
     "use_edit_page_button": True,
 }
+version = os.environ.get("READTHEDOCS_VERSION", "")
+version = version if "-" in version else "main"
 html_context = {
     "github_user": "OriolAbril",
     "github_repo": "sphinx-playground",
     "github_version": "main",
     "doc_path": ".",
+    "source_version": version,
+    "sandbox_version": f"pymc-devs/pymc-sandbox/{version}",
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
