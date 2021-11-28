@@ -12,8 +12,7 @@ extensions = [
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-# templates_path = ["_templates"]
-#
+templates_path = ["_templates"]
 
 # MyST related params
 # jupyter_execute_notebooks = "auto"
