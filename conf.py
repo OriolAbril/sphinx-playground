@@ -7,6 +7,7 @@
 extensions = [
     "sphinx.ext.intersphinx",
     "myst_parser",
+    "sphinx_design",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -25,11 +26,11 @@ myst_enable_extensions = [
 master_doc = "index"
 
 # General information about the project.
-project = "Sphinx Primer"
+project = "Sphinx Playground"
 copyright = "2021, Oriol Abril-Pla"
 author = "Oriol Abril-Pla"
 
-version = "0.2"
+version = "0.1"
 # The full version, including alpha/beta/rc tags.
 release = version
 
@@ -57,32 +58,11 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "pydata_sphinx_theme"
+html_theme = "furo"
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-html_theme_options = {
-    "icon_links": [
-        {
-            "name": "GitHub",
-            "url": "https://github.com/OriolAbril",
-            "icon": "fab fa-github-square",
-        },
-        {
-            "name": "Twitter",
-            "url": "https://twitter.com/OriolAbril",
-            "icon": "fab fa-twitter-square",
-        },
-    ],
-    "use_edit_page_button": True,
-}
-html_context = {
-    "github_user": "OriolAbril",
-    "github_repo": "sphinx-playground",
-    "github_version": "main",
-    "doc_path": ".",
-}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

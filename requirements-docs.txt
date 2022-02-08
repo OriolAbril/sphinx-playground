@@ -1,4 +1,5 @@
 docutils
 Sphinx>=4
-pydata_sphinx_theme>=0.6.3
 myst-parser
+furo
+sphinx-design
