@@ -1,6 +1,6 @@
 docutils
 Sphinx>=4
 myst-parser
-furo
-git+https://github.com/OriolAbril/sphinx-design@light_dark
+git+https://github.com/pradyunsg/furo
+sphinx-design
 
