@@ -32,4 +32,6 @@ exclude_patterns = [
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "pydata-sphinx-theme"
+html_theme = "alabaster"
+html_static_path = ["_static"]
+html_js_files = ["readthedocs.js"]
