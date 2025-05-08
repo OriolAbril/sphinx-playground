@@ -1,4 +1,2 @@
 docutils
 Sphinx>=5
-myst-parser
-myst-nb
