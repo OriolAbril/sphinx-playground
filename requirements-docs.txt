@@ -1,4 +1,5 @@
 docutils
 Sphinx>=5
+snowballstemmer<3
 myst-parser
 myst-nb
