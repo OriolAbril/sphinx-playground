@@ -1,4 +1,3 @@
 docutils
 Sphinx>=5
-myst-parser
-myst-nb
+pydata-sphinx-theme

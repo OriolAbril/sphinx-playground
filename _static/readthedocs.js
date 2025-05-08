@@ -1,5 +1,5 @@
 // TODO: Change me if needed
-const selector = "input[type='text']";
+const selector = "input[type='search']";
 
 document.addEventListener("DOMContentLoaded", function(event) {
     // Trigger Read the Docs' search addon instead of the default search
